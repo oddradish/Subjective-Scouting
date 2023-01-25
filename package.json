@@ -1,6 +1,6 @@
 {
   "private": true,
-  "homepage": "https://FarisAri.github.io/react-gh-pages",
+  "homepage": "https://FarisAri.github.io/QRScout",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

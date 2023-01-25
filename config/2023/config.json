@@ -203,7 +203,7 @@
         {
           "code": "cl",
           "title": "Pick up Gamepiece where",
-          "type": "checkbox",
+          "type": "select",
           "choices": {
             "t": "Single Substation",
             "x": "Double Substation",

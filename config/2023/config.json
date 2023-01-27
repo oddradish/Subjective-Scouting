@@ -205,7 +205,6 @@
           "title": "Pick up Gamepiece where",
           "type": "select",
           "choices": {
-            "t": "Single Substation",
             "x": "Double Substation",
             "g": "Ground",
             "b": "Both"

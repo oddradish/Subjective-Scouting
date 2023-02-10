@@ -78,7 +78,7 @@
           "required": false
         },
         {
-          "code": "at",
+          "code": "atf",
           "title": "Engaged?",
           "type": "boolean",
           "defaultValue": false,
@@ -109,7 +109,7 @@
           "required": false
         },
         {
-          "code": "tu",
+          "code": "tj",
           "title": "Top Cube Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -117,7 +117,7 @@
           "required": false
         },
         {
-          "code": "tm",
+          "code": "tma",
           "title": "Middle Cube Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -125,7 +125,7 @@
           "required": false
         },
         {
-          "code": "tl",
+          "code": "tlf",
           "title": "Lower Cube Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -133,7 +133,7 @@
           "required": false
         },
         {
-          "code": "ac",
+          "code": "ace",
           "title": "Picked up more pieces?",
           "type": "boolean",
           "defaultValue": false,
@@ -145,7 +145,7 @@
       "name": "Teleop",
       "fields": [
         {
-          "code": "tu",
+          "code": "tuq",
           "title": "Top Cone Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -153,7 +153,7 @@
           "required": false
         },
         {
-          "code": "tm",
+          "code": "tmu",
           "title": "Middle Cone Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -161,7 +161,7 @@
           "required": false
         },
         {
-          "code": "tl",
+          "code": "tll",
           "title": "Lower Cone Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -169,7 +169,7 @@
           "required": false
         },
         {
-          "code": "tu",
+          "code": "tut",
           "title": "Top Cube Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -177,7 +177,7 @@
           "required": false
         },
         {
-          "code": "tm",
+          "code": "tmv",
           "title": "Middle Cube Scored",
           "type": "counter",
           "defaultValue": 0,
@@ -185,7 +185,7 @@
           "required": false
         },
         {
-          "code": "tl",
+          "code": "tlx",
           "title": "Lower Cube Scored",
           "type": "counter",
           "defaultValue": 0,

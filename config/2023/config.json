@@ -71,7 +71,7 @@
           "required": false
         },
         {
-          "code": "at",
+          "code": "atd",
           "title": "Docked?",
           "type": "boolean",
           "defaultValue": false,

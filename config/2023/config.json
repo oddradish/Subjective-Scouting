@@ -131,13 +131,6 @@
           "defaultValue": 0,
           "min": 0,
           "required": false
-        },
-        {
-          "code": "ace",
-          "title": "Picked up more pieces?",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
         }
       ]
     },
@@ -193,14 +186,6 @@
           "required": false
         },
         {
-          "code": "tl",
-          "title": "Links Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
           "code": "cl",
           "title": "Pick up Gamepiece where",
           "type": "select",
@@ -222,12 +207,12 @@
           "title": "Control Station",
           "type": "select",
           "choices": {
-            "1": "Docked",
-            "2": "Docked and Engaged",
-            "3": "Parked",
-            "4": "Nothing"
+            "1": "None",
+            "2": "Parked",
+            "3": "Docked",
+            "4": "Docked and Engaged"
           },
-          "defaultValue": "5",
+          "defaultValue": "1",
           "required": false
         },
         {
@@ -235,26 +220,15 @@
           "title": "# of alliance bots docked/engaged",
           "type": "counter",
           "defaultValue": 0,
-          "required": false
+          "required": false,
+          "min": 0,
+          "max": 2
         }
       ]
     },
     {
       "name": "Postmatch",
       "fields": [
-        {
-          "code": "dr",
-          "title": "Defense Rating",
-          "type": "select",
-          "choices": {
-            "n": "Not Effective",
-            "a": "Average",
-            "v": "Very Effective",
-            "x": "Not Observed"
-          },
-          "defaultValue": "x",
-          "required": false
-        },
         {
           "code": "d",
           "title": "Died",

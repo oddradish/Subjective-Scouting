@@ -60,6 +60,7 @@
             "middle": "Middle",
             "right": "Right"
           },
+          "defaultValue": "Left",
           "required": false,
           "code": "autoStart"
         },

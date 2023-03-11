@@ -224,7 +224,7 @@
         },
         {
           "code": "cn",
-          "title": "# of alliance bots docked/engaged",
+          "title": "# of other alliance bots docked/engaged",
           "type": "counter",
           "defaultValue": 0,
           "required": false,

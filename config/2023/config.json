@@ -72,17 +72,15 @@
           "required": false
         },
         {
-          "code": "atd",
-          "title": "Docked?",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "atf",
-          "title": "Engaged?",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "ca",
+          "title": "Control Station",
+          "type": "select",
+          "choices": {
+            "1": "None",
+            "2": "Docked",
+            "3": "Docked and Engaged"
+          },
+          "defaultValue": "1",
           "required": false
         },
         {
@@ -181,6 +179,14 @@
         {
           "code": "tlx",
           "title": "Lower Cube Scored",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
+          "required": false
+        },
+        {
+          "code": "fl",
+          "title": "Fouls",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,

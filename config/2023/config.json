@@ -73,7 +73,7 @@
         },
         {
           "code": "ca",
-          "title": "Control Station",
+          "title": "Charge Station",
           "type": "select",
           "choices": {
             "1": "None",
@@ -211,7 +211,7 @@
       "fields": [
         {
           "code": "c",
-          "title": "Control Station",
+          "title": "Charge Station",
           "type": "select",
           "choices": {
             "1": "None",

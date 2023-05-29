@@ -27,7 +27,7 @@ export default function Home() {
   const [formData, setFormData] = useState<Config>(getDefaultConfig)
   const [showQR, setShowQR] = useState(false)
 
-  useEffect(() => {
+  useEffect(() => { 
     let userConfig = localStorage.getItem('QRScoutUserConfig')
     if (userConfig) {
       setFormData(buildConfig(JSON.parse(userConfig) as Config))

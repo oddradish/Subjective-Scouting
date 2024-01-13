@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "title": "QRScout",
-  "page_title": "Charged Up",
+  "page_title": "Cresendo",
   "sections": [
     {
       "name": "Prematch",
@@ -66,26 +66,14 @@
         },
         {
           "code": "at",
-          "title": "Mobility?",
+          "title": "Leave",
           "type": "boolean",
           "defaultValue": false,
           "required": false
         },
         {
-          "code": "ca",
-          "title": "Charge Station",
-          "type": "select",
-          "choices": {
-            "1": "None",
-            "2": "Docked",
-            "3": "Docked and Engaged"
-          },
-          "defaultValue": "1",
-          "required": false
-        },
-        {
           "code": "tu",
-          "title": "Top Cone Scored",
+          "title": "Amp Note",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -93,39 +81,7 @@
         },
         {
           "code": "tm",
-          "title": "Middle Cone Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tl",
-          "title": "Lower Cone Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tj",
-          "title": "Top Cube Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tma",
-          "title": "Middle Cube Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tlf",
-          "title": "Lower Cube Scored",
+          "title": "Speaker Note",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -138,7 +94,7 @@
       "fields": [
         {
           "code": "tuq",
-          "title": "Top Cone Scored",
+          "title": "Speaker Note (Not Amplified)",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -146,7 +102,7 @@
         },
         {
           "code": "tmu",
-          "title": "Middle Cone Scored",
+          "title": "Speaker Note (Amplified)",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
@@ -154,54 +110,10 @@
         },
         {
           "code": "tll",
-          "title": "Lower Cone Scored",
+          "title": "Amp Note",
           "type": "counter",
           "defaultValue": 0,
           "min": 0,
-          "required": false
-        },
-        {
-          "code": "tut",
-          "title": "Top Cube Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tmv",
-          "title": "Middle Cube Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tlx",
-          "title": "Lower Cube Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "fl",
-          "title": "Fouls",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "cl",
-          "title": "Pick up Gamepiece where",
-          "type": "select",
-          "choices": {
-            "x": "Double Substation",
-            "g": "Ground",
-            "b": "Both"
-          },
-          "defaultValue": "g",
           "required": false
         }
       ]
@@ -210,21 +122,36 @@
       "name": "Endgame",
       "fields": [
         {
-          "code": "c",
-          "title": "Charge Station",
-          "type": "select",
-          "choices": {
-            "1": "None",
-            "2": "Parked",
-            "3": "Docked",
-            "4": "Docked and Engaged"
-          },
-          "defaultValue": "1",
+          "code": "at",
+          "title": "Park",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "at",
+          "title": "Onstage (Not Spotlit)",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "at",
+          "title": "Onstage (Spotlit)",
+          "type": "boolean",
+          "defaultValue": false,
+          "required": false
+        },
+        {
+          "code": "at",
+          "title": "Note Placed in Trap",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {
           "code": "cn",
-          "title": "# of other alliance bots docked/engaged",
+          "title": "# of Robots in Harmony",
           "type": "counter",
           "defaultValue": 0,
           "required": false,

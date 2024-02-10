@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
   "title": "QRScout",
-  "page_title": "Cresendo",
+  "page_title": "Crescendo",
   "sections": [
     {
       "name": "Prematch",
@@ -136,17 +136,41 @@
           "required": false
         },
         {
-          "code": "at",
-          "title": "Onstage (Spotlit)",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "tl",
+          "title": "Links Scored",
+          "type": "counter",
+          "defaultValue": 0,
+          "min": 0,
           "required": false
         },
         {
-          "code": "at",
-          "title": "Note Placed in Trap",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "cl",
+          "title": "Pick up Gamepiece where",
+          "type": "select",
+          "choices": {
+            "x": "Double Substation",
+            "g": "Ground",
+            "b": "Both"
+          },
+          "defaultValue": "g",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Endgame",
+      "fields": [
+        {
+          "code": "c",
+          "title": "Control Station",
+          "type": "select",
+          "choices": {
+            "1": "Docked",
+            "2": "Docked and Engaged",
+            "3": "Parked",
+            "4": "Nothing"
+          },
+          "defaultValue": "5",
           "required": false
         },
         {

@@ -129,21 +129,21 @@
           "required": false
         },
         {
-          "code": "at",
+          "code": "ct",
           "title": "Onstage (Not Spotlit)",
           "type": "boolean",
           "defaultValue": false,
           "required": false
         },
         {
-          "code": "at",
+          "code": "pt",
           "title": "Onstage (Spotlit)",
           "type": "boolean",
           "defaultValue": false,
           "required": false
         },
         {
-          "code": "at",
+          "code": "ft",
           "title": "Note Placed in Trap",
           "type": "boolean",
           "defaultValue": false,

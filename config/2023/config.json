@@ -136,41 +136,17 @@
           "required": false
         },
         {
-          "code": "tl",
-          "title": "Links Scored",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
+          "code": "at",
+          "title": "Onstage (Spotlit)",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {
-          "code": "cl",
-          "title": "Pick up Gamepiece where",
-          "type": "select",
-          "choices": {
-            "x": "Double Substation",
-            "g": "Ground",
-            "b": "Both"
-          },
-          "defaultValue": "g",
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "Endgame",
-      "fields": [
-        {
-          "code": "c",
-          "title": "Control Station",
-          "type": "select",
-          "choices": {
-            "1": "Docked",
-            "2": "Docked and Engaged",
-            "3": "Parked",
-            "4": "Nothing"
-          },
-          "defaultValue": "5",
+          "code": "at",
+          "title": "Note Placed in Trap",
+          "type": "boolean",
+          "defaultValue": false,
           "required": false
         },
         {

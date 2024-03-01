@@ -21,174 +21,71 @@
           "code": "matchNumber"
         },
         {
-          "title": "Robot",
-          "type": "select",
-          "required": true,
-          "code": "robot",
-          "choices": {
-            "r1": "Red 1",
-            "b1": "Blue 1",
-            "r2": "Red 2",
-            "b2": "Blue 2",
-            "r3": "Red 3",
-            "b3": "Blue 3"
-          },
-          "defaultValue": "r1"
-        },
-        {
           "title": "Team Number",
           "type": "number",
           "required": true,
           "min": 0,
           "code": "teamNumber"
-        },
-        {
-          "title": "No Show",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false,
-          "code": "noShow"
-        }
+        }   
       ]
     },
     {
-      "name": "Autonomous",
+      "name": "Subjective Scouting",
       "fields": [
         {
-          "title": "Starting Location",
-          "type": "select",
-          "choices": {
-            "left": "Left",
-            "middle": "Middle",
-            "right": "Right"
-          },
-          "defaultValue": "Left",
-          "required": false,
-          "code": "autoStart"
-        },
-        {
-          "code": "at",
-          "title": "Leave",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "tu",
-          "title": "Amp Note",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tm",
-          "title": "Speaker Note",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "Teleop",
-      "fields": [
-        {
-          "code": "tuq",
-          "title": "Speaker Note (Not Amplified)",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tmu",
-          "title": "Speaker Note (Amplified)",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        },
-        {
-          "code": "tll",
-          "title": "Amp Note",
-          "type": "counter",
-          "defaultValue": 0,
-          "min": 0,
-          "required": false
-        }
-      ]
-    },
-    {
-      "name": "Endgame",
-      "fields": [
-        {
-          "code": "at",
-          "title": "Park",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "ct",
-          "title": "Onstage (Not Spotlit)",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "pt",
-          "title": "Onstage (Spotlit)",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "ft",
-          "title": "Note Placed in Trap",
-          "type": "boolean",
-          "defaultValue": false,
-          "required": false
-        },
-        {
-          "code": "cn",
-          "title": "# of Robots in Harmony",
-          "type": "counter",
-          "defaultValue": 0,
+          "code": "Of",
+          "title": "Offense Rating (1-5)",
+          "type": "number",
           "required": false,
           "min": 0,
-          "max": 2
-        }
-      ]
-    },
-    {
-      "name": "Postmatch",
-      "fields": [
+          "max": 5
+        },
         {
-          "code": "d",
-          "title": "Died",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "explain of rank",
+          "title": "Explanation of Offensive Rating",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
           "required": false
         },
         {
-          "code": "to",
-          "title": "Tipped Over",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "Df",
+          "title": "Defense Rating (1-5)",
+          "type": "number",
+          "required": false,
+          "min": 0,
+          "max": 5
+        },
+        {
+          "code": "explain df rank",
+          "title": "Explanation of Defense Rating",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
           "required": false
         },
         {
-          "code": "cf",
-          "title": "Yellow/Red Card",
-          "type": "boolean",
-          "defaultValue": false,
+          "code": "Drive",
+          "title": "Driver Rating (1-5)",
+          "type": "number",
+          "required": false,
+          "min": 0,
+          "max": 5
+        },
+        {
+          "code": "explain driver rank",
+          "title": "Explanation of Driver Rating",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
           "required": false
         },
         {
           "code": "co",
-          "title": "Comments",
+          "title": "General Comments",
           "type": "text",
           "min": 0,
           "max": 50,

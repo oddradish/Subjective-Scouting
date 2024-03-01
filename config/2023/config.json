@@ -1,7 +1,7 @@
 {
   "$schema": "../schema.json",
-  "title": "QRScout",
-  "page_title": "Crescendo",
+  "title": "Subjective-QRScout",
+  "page_title": "Subjective Crescendo",
   "sections": [
     {
       "name": "Prematch",

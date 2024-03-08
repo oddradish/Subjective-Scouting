@@ -30,19 +30,11 @@
       ]
     },
     {
-      "name": "Subjective Scouting",
+      "name": "Robot Performance and Strategy",
       "fields": [
         {
-          "code": "Of",
-          "title": "Offense Rating (1-5)",
-          "type": "number",
-          "required": false,
-          "min": 0,
-          "max": 5
-        },
-        {
-          "code": "explain of rank",
-          "title": "Explanation of Offensive Rating",
+          "code": "st1",
+          "title": "How effective is their robot during the Autonomous Period?",
           "type": "text",
           "min": 0,
           "max": 50,
@@ -50,16 +42,8 @@
           "required": false
         },
         {
-          "code": "Df",
-          "title": "Defense Rating (1-5)",
-          "type": "number",
-          "required": false,
-          "min": 0,
-          "max": 5
-        },
-        {
-          "code": "explain df rank",
-          "title": "Explanation of Defense Rating",
+          "code": "st2",
+          "title": "Can their robot quickly score NOTES in SPEAKER or AMP?",
           "type": "text",
           "min": 0,
           "max": 50,
@@ -67,31 +51,81 @@
           "required": false
         },
         {
-          "code": "Drive",
-          "title": "Driver Rating (1-5)",
-          "type": "number",
-          "required": false,
-          "min": 0,
-          "max": 5
-        },
-        {
-          "code": "explain driver rank",
-          "title": "Explanation of Driver Rating",
-          "type": "text",
-          "min": 0,
-          "max": 50,
-          "defaultValue": "",
-          "required": false
-        },
-        {
-          "code": "co",
-          "title": "General Comments",
+          "code": "st3",
+          "title": "Is their robot able to climb ONSTAGE or do the TRAP efficiently?",
           "type": "text",
           "min": 0,
           "max": 50,
           "defaultValue": "",
           "required": false
         }
+        
+      ]
+    },
+    {
+      "name": "Team Dynamics",
+      "fields": [
+        {
+          "code": "td1",
+          "title": "Do they perform well under pressure or falter?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        },
+        {
+          "code": "td2",
+          "title": "Do they focus on scoring, defense, or a mix?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        },
+        {
+          "code": "td2",
+          "title": "How synchronized are their drivers and human players?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        }
+
+      ]
+    },
+    {
+      "name": "Tactical Insights",
+      "fields": [
+        {
+          "code": "ti1",
+          "title": "How do they defend against scoring attempts (if they defend) ?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        },
+        {
+          "code": "td2",
+          "title": "How effectively can they block or disrupt scoring (if they defend) ?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        },
+        {
+          "code": "td2",
+          "title": "How well do they work with their allies for combined strategies (Constantly bumping or getting in there way) ?",
+          "type": "text",
+          "min": 0,
+          "max": 50,
+          "defaultValue": "",
+          "required": false
+        }
+
       ]
     }
   ]
